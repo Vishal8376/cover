@@ -45,10 +45,9 @@ Publish the website in the LocalHost.
             color:rgb(10, 10, 10);
             margin-left: auto;
             margin-right: auto;
-            padding:20px;
+            padding:5px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url('BOOK.jpg');
-            background-size: cover;
+            background-image: url(my\ image.jpg);
         }
 
         .insight{
@@ -74,8 +73,9 @@ Publish the website in the LocalHost.
             font-family: 'Courier New', Courier, monospace;
             font-size: larger;
             text-align: center;
-            position: relative;
-            top: 60px;
+            position: top;
+            top: 10px;
+            color: rgb(245, 89, 72);
         }
 
         .id{
@@ -104,14 +104,7 @@ Publish the website in the LocalHost.
             font-size: large;
             position: relative;
             top: 70px;
-        }
-        .mypic{
-            position: relative;
-            top: 180px;
-            left: 260px;
-            width: 100px;
-            height: 100px;
-            background-size: cover;
+            color: rgb(245, 89, 72);;
         }
         </style>
         <title>Book Cover Page</title>
@@ -119,37 +112,34 @@ Publish the website in the LocalHost.
     <body>
         <div class="bookpage">
             <div class="EXPERT INSIGHT">
-                SEC INSIGHT
+                
             </div>
             <div class="hrstyle">
-                <hr style="color: rgb(10, 10, 10);">
+                <hr style="color: rgb(255, 65, 65);">
             </div>
             <div class="booktitle">
-                <h1>BASICS OF WEB DEVELOPMENT</h1>
+                <h1>BASICS OF WEB DEVELOPMENT USING HTML AND CSS</h1>
             </div>
             <div class="subtitle">
-            Basic Guide For Beginners
-            </div>
-            <div class="mypic">
-                <img src="my image.jpg" width="120" height="120" alt="Error">
+            GUIDE FOR BEGINNERS
             </div>
             <div class="id">
                 <hr style="color:rgb(10, 10, 10);">
             </div>
             <div class="author">
-                <p><b>PRIYADHARSHINI.P</b></p>
+                <p><b>Vishal S</b></p>
             </div>
             <div class="pub">
-                SEC
+                CSE
             </div>
             <div class="ed">
-                <b>Extended Edition</b>
+                <b>Exclusive Edition</b>
             </div>
         </div>
     </body>
 </html>
 ```
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-10 134628.png>)
+![alt text](<Screenshot 2024-12-10 205333.png>)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
